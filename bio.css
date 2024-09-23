@@ -1,0 +1,144 @@
+.border-lightslategray {
+    border-color: lightslategray;
+}
+.bg-lightslategray {
+    background-color: lightslategray;
+}
+.p-t-7 {
+    padding-top: 7rem;
+}
+.p-t-8 {
+    padding-top: 8rem;
+}
+.border-white{
+    border-color: white;
+}
+.bg-light-gray{
+    background-color: #f4f5f9;
+}
+.bg-peak-green {
+    background-color: rgb(172, 243, 128);
+}
+.bg-transparent {
+    background-color: rgba(255, 255, 255,0);
+}
+.bg-red1 {
+    background-color: #d26547;
+}
+.bg-yellow1{
+    background-color: rgb(213, 178, 20);
+}
+.list-group-item-border-remove {
+    border-top: none; 
+    border-bottom: none; 
+}
+.left{
+    float: left;
+}
+.right{
+    float: left;
+}
+.fs-h1 {
+    font-size: 2.8vw;
+}
+.fs-h2 {
+    font-size: 1.4vw;
+}
+.fs-h3{
+    font-size: 1.2vw;
+}
+.fs-h4{
+    font-size: 1.2vw;
+}
+.caption{
+    color:rgb(23, 31, 69);
+}
+.p-normal{
+    color: #888;
+}
+.bg-dark-red{
+    background-color: rgb(135, 41, 41);
+}
+.list-group-item-action {
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
+.list-group-item-action:hover {
+    background-color: rgba(34, 53, 81,0.3);
+    color: white;
+}
+.a-text{
+    color:#888;
+    text-decoration: none;  
+}
+.a-text:hover {
+    color: rgb(116, 55, 55);
+    text-decoration: none;
+}
+.a-text:active {
+    color: rgb(116, 55, 55);
+    text-decoration: underline;
+}
+.a-text:visited {
+    color: rgb(176, 140, 78);
+    text-decoration: none;
+}
+.sidebar {
+    transition: all 0s;
+}
+.sidebar-hidden {
+    transform: translateX(-100%);
+    display: none;
+}
+.content {
+    transition: all 0.3s;
+}
+.content-expanded {
+    margin-left: 0%;
+}
+.btn-hide {
+    display: contents;
+}
+@media screen and (max-width: 800px) {
+    .left, .right{
+      width: 100%; 
+    }
+    .fs-h1 {
+        font-size: 5vw;
+    }
+    .fs-h2 {
+        font-size: 3.5vw;
+    }
+    .fs-h3 {
+        font-size: 3vw;
+    }
+    .fs-h4 {
+        font-size: 2.5vw;
+    }
+    .sidebar {
+        transition: all 0.3s;
+    }
+    .sidebar-hidden {
+        transition: all 0.3s
+    }
+    .content {
+        transition: all 0.3s;
+    }
+    .content-expanded {
+        transition: all 0.3s;
+    }
+    .btn-hide {
+        display: none;
+    }
+  }
+  .table{
+    --bs-table-bg:transparent;
+    --bs-table-color:#888;
+  }
+  .ul-sm>li{
+    padding-top: 2.2%;
+  }
+  .pd-sm {
+    padding-top: 2.2%;
+  }
